@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 171.8 45.85">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .03em;
+      }
+
+      .cls-2 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-3 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: .03em;
+      }
+
+      .cls-6 {
+        font-family: PlayfairDisplayRoman-ExtraBold, 'Playfair Display';
+        font-size: 20px;
+        font-variation-settings: 'wght' 800;
+        font-weight: 700;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        letter-spacing: .03em;
+      }
+
+      .cls-9 {
+        letter-spacing: .02em;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-12 {
+        font-family: PlayfairDisplay-Italic, 'Playfair Display';
+        font-size: 12px;
+        font-style: italic;
+        font-variation-settings: 'wght' 400;
+      }
+    </style>
+  </defs>
+  <text class="cls-6" transform="translate(2 17.08)"><tspan class="cls-1" x="0" y="0">PO</tspan><tspan class="cls-9" x="30.42" y="0">O</tspan><tspan class="cls-5" x="46.98" y="0">LS &amp; </tspan><tspan class="cls-2" x="101.38" y="0">F</tspan><tspan class="cls-10" x="112.76" y="0">A</tspan><tspan class="cls-8" x="126.48" y="0">LLS </tspan></text>
+  <text class="cls-12" transform="translate(46.01 42.96)"><tspan class="cls-4" x="0" y="0">A loca</tspan><tspan class="cls-3" x="30.94" y="0">l</tspan><tspan class="cls-4" x="33.74" y="0" xml:space="preserve"> di</tspan><tspan class="cls-11" x="46.76" y="0">r</tspan><tspan class="cls-7" x="51.59" y="0">ectory</tspan></text>
+</svg>

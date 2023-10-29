@@ -1,0 +1,1432 @@
+#slideinmenu {
+    font-family: 'Proxima Nova';
+    backdrop-filter: blur(5px);
+    font-size: 140%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.5); 
+    width: 50vw;
+    height: 100vh;
+    transform: translate(-60vw,0);
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: 0.5s;
+    z-index: 5;
+}
+#searchslidein{
+    font-family: 'Proxima Nova';
+    backdrop-filter: blur(5px);
+    font-size: 140%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.5); 
+    width: 50vw;
+    height: 100vh;
+    right: 0;
+    transform: translate(60vw,0);
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: 0.5s;
+    z-index: 5;
+}
+#xbtn2{
+    color: black;
+    display: flex;
+    top: 30px;
+    right: 40px;
+    position: absolute;
+    font-size: 140%;
+    z-index: 6;
+}
+#xbtn2:hover {
+    cursor: pointer;
+    color: #2A8895;
+}
+#searchbtn2 {
+    color: #042327;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    z-index: 2;
+    /* font-size: 140%; */
+}
+#searchbox{
+    position: absolute;
+    width: 60%;
+    height: 10%;
+    background-color: rgba(255, 255, 255, 0.752);
+    top: 20%;
+    left: 20%;
+    border-radius: 35px;
+}
+#items{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 15%;
+    left: 20px;
+}
+#slideinmenu a{
+    color: black;
+    padding-left: 20px;
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+#slideinmenu a:hover{
+    color: #2A8895;
+}
+#xbtn:hover {
+    cursor: pointer;
+    color: #2A8895;
+}
+#menubtn:hover {
+    cursor: pointer;
+}
+#menubtnlight:hover {
+    cursor: pointer;
+}
+#xbtn{
+    color: black;
+    display: flex;
+    top: 30px;
+    left: 40px;
+    /* padding-left: 20px;
+    padding-top: 10px; */
+    position: absolute;
+    font-size: 140%;
+    z-index: 6;
+}
+
+#menubtn{
+    background-color:rgba(255, 255, 255, 0);
+    border: none;
+    color: #042327;
+    position: fixed;
+    top: 30px;
+    left: 40px;
+    font-size: 140%;
+    z-index: 2;
+}
+#menubtnlight{
+    border: none;
+    color: white;
+    position: fixed;
+    top: 30px;
+    left: 40px;
+    font-size: 140%;
+    z-index: 2;
+}
+#topbtn{
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 20px;
+    border: white solid 2px;
+    border-radius: 200px;
+    visibility: hidden;
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+}
+#logo{
+    width: 11%;
+}
+#searchbtn {
+    color: #042327;
+    position: fixed;
+    top: 30px;
+    right: 40px;
+    z-index: 2;
+    font-size: 140%;
+}
+#searchbtnlight {
+    color: white;
+    position: fixed;
+    top: 30px;
+    right: 40px;
+    z-index: 2;
+    font-size: 140%;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    font-family: 'Proxima Nova';
+    font-size: 110%;
+    padding-top: 30px;
+    width: 100%;
+}
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+a:hover {
+    color: #FF6A29;
+}
+nav a {
+    color: #042327;
+}
+.navdark{
+    color: #2A8895;
+}
+#navBdark, #navCdark, #navDdark{
+    color: #2A8895;
+}
+.navAdark{
+    color: #2A8895;
+}
+.navlight{
+    color: white;
+}
+#slbtn {
+    font-family: 'Proxima Nova';
+}
+.sltbtn:hover{
+    color: #FF6A29;
+}
+.slmenuitem:hover{
+    background-color: #2A8895;
+}
+.slmenuitem {
+    padding-bottom: 10%;
+    padding-top: 10%;
+    background-color:  rgba(255, 255, 255, 0.399);
+
+}
+.slmenuitems, .filtermenuitems{
+    background-color:  rgba(255, 255, 255, 0.399);
+}
+
+/* section 1 */
+#s1{
+    background-image: url(water.jpg);
+    /* background-size: 100vw, 100vh; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+h1{
+    font-family: 'Proxima Nova';
+    font-size: 300%;
+    color: white;
+    margin: 0;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+#startbtn1{
+    height: 50px;
+    width: 20%;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    color: #2A8895;
+    background-color: white;
+    border-radius: 35px;
+}
+#startbtn{
+    font-family: 'Proxima Nova';
+    width: 100%;
+    font-size: 16pt;
+    position: relative;
+    z-index: 2;
+    align-self: center;
+}
+.wave{
+    position: absolute;
+    top: calc(100% + 22px);
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00aeff;
+    transition: 1s;
+}
+.wave:before{
+    content: '';
+    position: absolute;
+    top: -22px;
+    left: 0;
+    width: 100%;
+    height: 22px;
+    background: url(wave.png);
+    animation: animate 0.5s linear infinite;
+}
+@keyframes animate{
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: 118px;
+    }
+}
+#startbtn1:hover .wave{
+    top: 0;
+}
+#startbtn:hover{
+    color: white;
+}
+#iglogo {
+    background-image: url('iglogo.png');
+    background-position: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+#fblogo {
+    background-image: url('fblogo.png');
+    background-position: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+#social {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 5%;
+}
+#social p{
+    align-self: flex-start;
+}
+
+/* Latest Locations */
+#s2 {
+    background-image: linear-gradient(#083238,#021113);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#s2h2{
+    font-family: 'Playfair Display';
+    font-size: 30px;
+    color: #69DBEA;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+#latestlocationcards{
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(3, 32.33%);
+    grid-template-rows: repeat(2, 49%);
+    margin-top: 10px;
+    gap: 1vw;
+    width: 80vw;
+    height: 90vh;
+    justify-content: center;
+}
+#latestlocationcards sl-button {
+    transition-duration: 0.5s;
+}
+#latestlocationcards sl-button:hover{
+    scale: 110%;
+}
+#latestlocationcards sl-button::part(base) {
+        --sl-input-height-medium: 48px;
+        --sl-input-border-width: 4px;
+    
+        padding: 2.5%;
+        border-radius: 35px;
+        background-color: white;
+        color: #083238;
+        border: none;
+        font-size: 120%;
+        transition: var(--sl-transition-medium) transform ease, var(--sl-transition-medium) border ease;
+}
+
+.cardblock1{
+    position: relative;
+    display: flex;
+    grid-column: 1 / 3; 
+    grid-row: 1 / 2;
+}
+.cardblock1 a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.cardblock2 {
+    position: relative;
+    display: flex;
+    grid-column: 3 / 4; 
+    grid-row: 1 / 2;
+}
+.cardblock2 a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.cardblock3{
+    position: relative;
+    display: flex;
+    grid-column:1 / 2;
+    grid-row: 2 / 3;
+}
+.cardblock3 a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.cardblock4{
+    position: relative;
+    display: flex;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3; 
+}
+.cardblock4 a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.cardblock5{
+    position: relative;
+    display: flex;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+.cardblock5 a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.card1{
+    width: 100%;
+    height: 100%;
+    background-image: url(mataranka.jpeg);
+    background-position: center 0;
+    background-size: cover;
+    /* background-position: 0; */
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    z-index: 1;
+    position: relative;
+    align-self: flex-start;
+    transition-duration: 0.5s;
+}
+.card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover {
+    scale: 105%;
+    cursor: pointer;
+}
+.cardinfo1 {
+    width: 50%;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.324);
+    border-radius: 35px;
+    position: absolute;
+    z-index: 2;
+    bottom: 10px;
+    left: -20px;
+    border: rgba(255, 255, 255, 0.227) 2px solid;
+    color: #021113;
+    backdrop-filter: blur(10px);
+    font-family: 'Playfair Display';
+    font-size: 16pt;
+    display: inline-flex;
+    border:rgba(255, 255, 255, 0.227) 2px solid;
+    
+}
+.card2{
+    width: 100%;
+    height: 100%;
+    background-image: url(babinda.jpg);
+    background-position: center 0;
+    background-size: cover;
+    background-position: 0;
+    border-radius: 25px;
+    z-index: 1;
+    position: relative;
+    transition-duration: 0.5s;
+
+}
+.cardinfo2, .cardinfo3, .cardinfo4, .cardinfo5 {
+    width: auto;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.324);
+    border-radius: 35px;
+    position: absolute;
+    z-index: 2;
+    bottom: 10px;
+    left: -20px;
+    border: #ffffff3a 2px solid;
+    color: #021113;
+    backdrop-filter: blur(10px);
+    font-family: 'Playfair Display';
+    font-size: 16pt;
+    display: inline-flex;
+    border:rgba(255, 255, 255, 0.227) 2px solid;
+}
+.card3{
+    width: 100%;
+    height: 100%;
+    background-image: url(curlcurlbeach.jpeg);
+    background-position: center 0;
+    background-size: cover;
+    border-radius: 25px;
+    z-index: 1;
+    position: relative;
+    transition-duration: 0.5s;
+
+}
+.card4{
+    width: 100%;
+    height: 100%;
+    background-image: url(cabaritabeach.jpg);
+    background-position: center 0;
+    background-size: cover;
+    border-radius: 25px;
+    z-index: 1;
+    position: relative;
+    transition-duration: 0.5s;
+}
+.card5{
+    width: 100%;
+    height: 100%;
+    background-image: url(beachpool.jpg);
+    background-position: center 0;
+    background-size: cover;
+    border-radius: 25px;
+    z-index: 1;
+    position: relative;
+    transition-duration: 0.5s;
+}
+
+#explorebtn{
+    width: 20%;
+    border-radius: 35px;
+    /* justify-content: center; */
+    display: flex;
+    margin-left: 30%;
+    margin-top: 10px;
+    position: absolute;
+    font-family: 'Proxima Nova';
+    background-color: white;
+    color: #083238;
+}
+#explorebtn::part(base):hover{
+    color: #2A8895;
+}
+#s3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+#s3h2{
+    font-family: 'Playfair Display';
+    font-size: 30px;
+    margin-top: 10%;
+    color: #69DBEA;
+}
+#s3 p {
+    font-family: 'Proxima Nova';
+    text-align: center;
+    color: white;
+    font-size: 145%;
+    width: 60%;
+}
+
+sl-button#questionbtn::part(base) {
+    --sl-input-height-medium: 48px;
+    --sl-input-border-width: 4px;
+    padding: 5%;
+    border-radius: 35px;
+    background-color: white;
+    color: #083238;
+    font-weight: bold;
+    font-family: 'Proxima Nova';
+    border: none;
+    font-size: 120%;
+    transition: var(--sl-transition-medium) transform ease, var(--sl-transition-medium) border ease;
+}
+
+sl-button#submitbtn::part(base) {
+    --sl-input-height-medium: 48px;
+    --sl-input-border-width: 4px;
+
+    padding: 5%;
+    margin-left: 5%;
+    border-radius: 35px;
+    background-color: white;
+    color: #083238;
+    font-weight: bold;
+    font-family: 'Proxima Nova';
+    border: none;
+    font-size: 120%;
+    /* transition: var(--sl-transition-medium) transform ease, var(--sl-transition-medium) border ease; */
+}
+#submitbtn, #questionbtn{
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+#submitbtn:hover, #questionbtn:hover{
+    cursor: pointer;
+    scale: 110%;
+}
+#submitbtn::part(base):hover, #questionbtn::part(base):hover{
+    color: #2A8895;
+
+}
+#s3btns{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin-bottom: 2.5%;
+}
+.section {
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
+/* All Locations */
+#locationstext{
+    font-family: 'Playfair Display';
+    color: #2A8895;
+    text-align: left; 
+    display: block;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+#buttons{
+    display: flex;
+    z-index: 4;
+    width: 90vw;
+    margin-left: 5%;
+    /* border: blue 2px solid; */
+    align-items: baseline;
+    margin-bottom: 2%;
+}
+#buttons sl-button {
+    background-color: #2A8895;
+    border-radius: 35px;
+    padding: 8px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+#buttons sl-button:active {
+    background-color: #021113;
+}
+#sortbtn, #statebtn, #waterTypebtn, #featuresbtn {
+    /* margin-right: 10px; */
+    border: none;
+}
+#featuresbtn{
+    text-align: left;
+    margin-left: 0;
+}
+#buttons p{
+    font-size: 18px; 
+    margin-right: 5%;
+}
+sl-checkbox {
+    border: black 2px solid;
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+}
+sl-checkbox span {
+    visibility: hidden;
+}
+sl-checkbox::part(checked-icon) {
+    width: 17px;
+    height: 17px;
+}
+#als1{
+    background-image: linear-gradient(white, #2A8895);
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+#alllocationcards{
+    display: flex;
+    margin:auto;
+    gap: 5%;
+    justify-content: space-evenly;
+    width: 90vw;
+    height: 100vh;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+}
+#azlocationcards{
+    /* display: flex; */
+    margin:auto;
+    gap: 5%;
+    justify-content: space-evenly;
+    width: 90vw;
+    height: 100vh;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+    display: none;
+}
+#qldlocationcards, #ntlocationcards, #nswlocationcards{
+    display: none;
+    margin:auto;
+    gap: 5%;
+    justify-content: space-evenly;
+    width: 90vw;
+    height: 100vh;
+    flex-wrap: wrap;
+    margin-bottom: 10%;
+}
+#beachlocationcards, #poollocationcards, #springlocationcards, #riverlocationcards{
+    display: none;
+    margin:auto;
+    gap: 5%;
+    justify-content: space-evenly;
+    width: 90vw;
+    height: 100vh;
+    flex-wrap: wrap;
+    margin-bottom: 10%;
+}
+#actlocationcards p{
+    font-size: 120%;
+    justify-content: center;
+    margin-left: 5%;
+    color: #042327;
+}
+#cardblockmataranka, #cardblockbabinda, #cardblockcurlcurl, #cardblocktjaynera, #cardblockbondi, #cardblockcabarita{
+    display: flex;
+}
+.cardblock{
+    position: relative;
+    display: flex;
+}
+.card{
+    width: 27vw;
+    height: 40vh;
+    background-color: white;
+    border-radius: 25px;
+    z-index: 1;
+    position: relative;
+}
+.cardinfo {
+    width: auto;
+    height: 10%;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.324);
+    border-radius: 25px;
+    position: absolute;
+    z-index: 2;
+    bottom: -10px;
+    left: -20px;
+    border: rgba(255, 255, 255, 0.227) 2px solid;
+    color: #042327;
+    backdrop-filter: blur(20px);
+    font-family: 'Playfair Display';
+    font-size: 16pt;
+    text-align: center;
+    align-self: center;
+}
+#card1{
+    background-image: url(mataranka.jpeg);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-duration: 1s;
+}
+#card2{
+    background-image: url(babinda.jpg);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-duration: 1s;
+}
+#card3{
+    background-image: url(curlcurlbeach.jpeg);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-duration: 1s;
+}
+#card4{
+    background-image: url(tfalls.jpg);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-duration: 1s;
+}
+#card5{
+    background-image: url(beachpool.jpg);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-duration: 1s;
+}
+#card6{
+    background-image: url(cabaritabeach.jpg);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-duration: 1s;
+}
+#card1:hover, #card2:hover, #card3:hover, #card4:hover, #card5:hover, #card6:hover {
+    scale: 110%;
+}
+.filtermenuitems{
+    color: black;
+}
+
+/* Location Page  */
+#locationPage{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(#021113, #042327, #021113);
+    flex-direction: column;
+}
+.bold2{
+    font-weight: bold;
+}
+#locationPage p {
+    width: 35%;
+    height:35%;
+    font-size: 14pt;
+    font-family: 'Proxima Nova';
+    color: white;
+    margin-bottom: 5%;
+}
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+#header, #headerB, #headerC, #headerD {
+    display: flex;
+    justify-content: center;
+}
+#headerimg {
+    background-image: url("mataranka.jpeg");
+    background-position: center 0;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: block;
+    position: relative;
+}
+
+#headerimgB {
+    background-image: url("babinda.jpg");
+    background-position: center 0;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 20px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: block;
+    position: relative;
+}
+#headerimgC {
+    background-image: url("curlcurlbeach.jpeg");
+    background-position: center 0;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 20px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: block;
+    position: relative;
+}
+#headerimgD {
+    background-image: url("tfalls.jpg");
+    background-position: center 0;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 20px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: block;
+    position: relative;
+}
+#headerimgE {
+    background-image: url("beachpool.jpg");
+    background-position: center 0;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 20px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: block;
+    position: relative;
+}
+#headerimgF {
+    background-image: url("cabaritabeach.jpg");
+    background-position: center 0;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 20px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: block;
+    position: relative;
+}
+#titlecard{
+    width: auto;
+    height: 10vh;
+    padding: 40px;
+    padding-left: 50px;
+    background-color: rgba(255, 255, 255, 0.324);
+    border-radius: 25px;
+    position: absolute;
+    z-index: 2;
+    bottom: 20px;
+    left: 8vw;
+    border: rgba(255, 255, 255, 0.227) 2px solid;
+    color: white;
+    backdrop-filter: blur(30px);
+    font-family: 'Playfair Display';
+}
+#titlecard img{
+    position: absolute;
+    left: 2%;
+    top: 10%;
+}
+#titlecard2{
+    font-size: 14pt;
+    font-family: 'Playfair Display';
+}
+.block{
+    position: relative;
+}
+#titlecard3{
+    width: auto;
+    height: 5vh;
+    padding: 30px;
+    padding-left: 50px;
+    background-color: rgba(255, 255, 255, 0.324);
+    border-radius: 25px;
+    position: absolute;
+    z-index: 2;
+    bottom: 20%;
+    left: 8vw;
+    border: rgba(255, 255, 255, 0.227) 2px solid;
+    color: white;
+    backdrop-filter: blur(30px);
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+    font-size: 110%;
+}
+#titlecard3 img{
+    position: absolute;
+    left: 2%;
+    top: 10%;
+}
+#titlecard3div{
+    padding-left: 15%;
+}
+#mataranka-heart-svg{
+    border: rgba(255, 255, 255, 0.227) 2px solid;
+    border-radius: 35px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 10vh;
+    right: 11vw;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.324);
+}
+#heart.active{
+    fill: #FF6A29;
+}
+#heart{
+    fill: white;
+}
+
+#heart:hover{
+    cursor: pointer;
+}
+#bold{
+    font-weight: bold;
+    font-size: 200%;
+}
+#questionbutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    align-self: center;
+    text-align: center;
+    margin-bottom: 5%;
+    font-family: 'Proxima Nova';
+    font-size: 14pt;
+}
+#questionbutton button:hover{
+    scale: 110%;
+    cursor: pointer;
+}
+#questionbutton button{
+    margin-top: 20px;
+    width: 20vw;
+    height: 5vh;
+    background-color: #2A8895;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 14pt;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.quote{
+    width: 35%;
+    height:35%;
+    font-family: "Playfair Display";
+    font-size: 380%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #69DBEA;
+}
+#bodyimg{
+    width: 40vw;
+    height: 45vh;
+    border-radius: 20px;
+    }
+
+
+/* Account Page */
+#accountpage{
+    background-color: #042327;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#accounts1{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* height: auto; */
+    /* width: 100%; */
+}
+#accounts1 p:not(#accountname){
+    font-family: "Proxima Nova";
+    color: white;
+    font-size: 16pt;
+}
+#profileimg{
+    background-color: #FF6A29;
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    position: relative;
+}
+#imgtext{
+    position: absolute;
+    font-family: "Proxima Nova";
+    color: white;
+    font-size: 100pt;
+    left: 25%;
+    top: -4%;
+}
+#accountname{
+    font-family: "Proxima Nova";
+    color: white;
+    font-size: 22pt;
+}
+#box{
+    display: flex;
+    /* flex-direction: row; */
+    margin-bottom: 5%;
+}
+#box2{
+    text-align: center;
+    /* width: 80vw; */
+}
+.accountLocationCard, .accountFavCard{
+    width: 90%;
+    height: 30%;
+    border-radius: 35px;
+    margin: 5px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border: white 2px solid;
+}
+#favs, #locations{
+    border: rgba(255, 255, 255, 0.227) 2px solid;
+    border-radius: 35px;
+    background-color: rgba(255, 255, 255, 0.324);
+    height: 60vh;
+    width: 30vw;
+    color: white;
+    /* right: 0; */
+    font-family: 'Proxima Nova';
+    /* justify-content: center; */
+    padding: 20px;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+}
+#favs{
+    margin-left: -5%;
+}
+#locations{
+    margin-left: 5%;
+}
+
+
+
+#favs::-webkit-scrollbar{
+    display: none;
+}
+#locations::-webkit-scrollbar{
+    display: none;
+}
+/* #locations{
+    margin-left: 2.5%;
+} */
+#accountFavCard1, #accountLocationCard1{
+    width: 400px;
+    height: 300px;
+    background-image: url(mataranka.jpeg);
+    background-position: 0;
+    background-size: cover;
+    position: relative;
+}
+
+#accountFavCard2{
+    width: 400px;
+    height: 300px;
+    background-image: url(babinda.jpg);
+    background-position: 0;
+    background-size: cover;
+}
+#accountFavCard3, #accountLocationCard2{
+    width: 400px;
+    height: 300px;
+    background-image: url(curlcurlbeach.jpeg);
+    background-position: 0;
+    background-size: cover;
+}
+#accountFavCard4{
+    width: 400px;
+    height: 300px;
+    background-image: url(cabaritabeach.jpg);
+    background-position: 0;
+    background-size: cover;
+}
+#accountFavCard5{
+    width: 400px;
+    height: 300px;
+    background-image: url(beachpool.jpg);
+    background-position: 0;
+    background-size: cover;
+}
+#accountFavCard6, #accountLocationCard3{
+    width: 400px;
+    height: 300px;
+    background-image: url(tfalls.jpg);
+    background-position: 0;
+    background-size: cover;
+}
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    /* Section 1 */
+    #s1 {
+      /* background-size: contain; */
+      height: 100vh;
+      width: 100vw;
+    }
+    h1{
+        font-size: 200%;
+        padding: 10%;
+    }
+    #navA,#navB, #navC, #navD{
+        display: none;
+    }
+    #startbtn1{
+        width: 60%;
+    }
+    #logo{
+        width: 28%;
+    }
+    #menubtn, #searchbtn, #menubtnlight, #searchbtnlight{
+        font-size: 120%
+    }
+
+    /* Section 2 */
+    #s2{
+        padding-top: 20%;
+    }
+    #s2 h2{
+        font-size: 14pt;
+    }
+    #latestlocationcards{
+        height: 60vh;
+    }
+    .cardinfo2, .cardinfo3, .cardinfo4, .cardinfo5 {
+        font-size: 10pt;
+        width: auto;
+        height: 30%;
+        padding: 10px;
+        bottom: 0;
+        left: 0;
+        border-radius: 10px;
+    }
+    .cardinfo1{
+        font-size: 12pt;
+        width: 91%;
+        height: 30%;
+        padding: 10px;
+        bottom: 0;
+        left: 0;
+        border-radius: 10px;
+    }
+    #explorebtn{
+        margin-top: 6%;
+        width: 40%;
+        left: 0;
+    }
+    #s3{
+        padding-top: 10%;
+        justify-content: center;
+        font-size: 12pt;
+    }
+    #s3 h2{
+        font-size: 18pt;
+    }
+    #submitbtn, #questionbtn{
+        font-size: 12pt;
+        margin: 0;
+        /* padding: 2%; */
+        /* display: inline-flex; */
+    }
+    #submitbtn{
+        margin: 0;
+    } 
+    #s3btns{
+        width: 60%;
+        flex-direction: column;
+        margin: 0;
+    }
+    #s3 sl-button::part(base){
+        margin: 0;
+    }
+    #slideinmenu{
+        width: 50%;
+        backdrop-filter: blur(20px);
+    }
+    /* All locations */
+    #locationstext{
+        margin-top: 20%;
+    }
+    .cardblock{
+        margin-bottom: 10%;
+        z-index: 1;
+    }
+    .card{
+        height: 60vh;
+        width: 80vw;
+    }
+    .cardinfo{
+        height: auto;
+        width: auto;
+        bottom: 10%;
+    }
+    /* Location pages */
+    .navlight{
+        display: none;
+    }
+    #locationPage{
+        width: 100vw;
+    }
+    #headerimg, #headerimgB, #headerimgC, #headerimgD, #headerimgE, #headerimgF{
+        width: 90vw;
+        height: 60vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #titlecard{
+        width: 68%;
+        height: auto;
+        position: absolute;
+        bottom: 15%;
+        left: 2.5%;
+        margin-bottom: 10%;
+    }
+    #favouritebtn{
+        position: absolute;
+        bottom: 64%;
+        right:-2%;
+    }
+    #titlecard #bold{
+        font-size: 16pt;
+    }
+    #titlecard2{
+        font-size: 14pt;
+    }
+    .quote{
+        font-size: 20pt;
+        width: 60%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        text-align: center;
+    }
+    #bodyimg{
+        width: 80%;
+        height: auto;
+        margin-bottom: 5%;
+        position: relative;
+    }
+    .block{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+        flex-direction: column;
+    }
+    #titlecard3{
+        position: absolute;
+        width: 40%;
+        height: 8%;
+        top: 18%;
+    }
+    #locationPage p{
+        width: 80%;
+    }
+    #questionbutton button{
+        width: 100%;
+    }
+    #questionbutton{
+        justify-content: center;
+    }
+    /* Account page */
+    #box{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5%;
+    }
+    #box2{
+        text-align: center;
+        /* width: 80vw; */
+    }
+
+    #profileimg{
+        margin-top: 10%;
+        width: 30vw;
+        height: 30vh;
+    }
+    #imgtext{
+        font-size: 80pt;
+        top: 2%;
+    }
+    
+    #favs, #locations{
+        border: rgba(255, 255, 255, 0.227) 2px solid;
+        border-radius: 35px;
+        background-color: rgba(255, 255, 255, 0.324);
+        height: 80vh;
+        width: 80vw;
+        color: white;
+        font-family: 'Proxima Nova';
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+        overflow-y: scroll;
+    }
+    #favs{
+        margin-left: 0%;
+    }
+    #locations{
+        margin-left: 0%;
+    }
+
+    #accountFavCard1, #accountLocationCard1{
+        width: 90%;
+        height: 80%;
+        margin-left: 4%;
+        background-image: url(mataranka.jpeg);
+        background-position: 0;
+        background-size: cover;
+        position: relative;
+    }
+    
+    #accountFavCard2{
+        width: 90%;
+        height: 80%;
+        margin-left: 4%;
+        background-image: url(babinda.jpg);
+        background-position: 0;
+        background-size: cover;
+    }
+    #accountFavCard3, #accountLocationCard2{
+        width: 90%;
+        height: 80%;
+        margin-left: 4%;
+        background-image: url(curlcurlbeach.jpeg);
+        background-position: 0;
+        background-size: cover;
+    }
+    #accountFavCard4{
+        width: 90%;
+        height: 80%;
+        margin-left: 4%;
+        background-image: url(cabaritabeach.jpg);
+        background-position: 0;
+        background-size: cover;
+    }
+    #accountFavCard5{
+        width: 90%;
+        height: 80%;
+        margin-left: 4%;
+        background-image: url(beachpool.jpg);
+        background-position: 0;
+        background-size: cover;
+    }
+    #accountFavCard6, #accountLocationCard3{
+        width: 90%;
+        height: 80%;
+        margin-left: 4%;
+        background-image: url(tfalls.jpg);
+        background-position: 0;
+        background-size: cover;
+    }
+}
